@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <a class="logo" href="shoehub.html">
+        <h3 class="logoname">Shoe<span>Hub</span></h3>
+    </a>
+</header>
+
+<div class="search-bar">
+    <input type="text" id="search" placeholder="Search here...." >
+</div>
+
+
+
+<div id="container">
+
+    <aside class="filters">
+        <h3>Filters</h3>
+
+        <h4>Brand</h4>
+        <ul>
+            <li><a id="nikebrand" href="#">Nike</a></li>
+            <li><a id="sketchbrand" href="#">Sketchers</a></li>
+            <li><a id="pumabrand" href="#">Puma</a></li>
+            <li><a id="crocsbrand" href="#">Crocs</a></li>
+            <li><a id="vanheusan" href="#">Van Heusen</a></li>
+            <li><a id="theheels" href="#">The Heels</a></li>
+            <li><a id="ortho" href="#">Ortho</a></li>
+            <li><a id="pbh" href="#">Pbh</a></li>
+        </ul>
+
+
+        <h4>Price</h4>
+      <div class="price-options">
+    <label><input type="checkbox" id="price1" value="0-99"> Under $ 99</label>
+    <label><input type="checkbox" id="price2" value="100-120"> $100 – $120</label>
+    <label><input type="checkbox" id="price3" value="130-159"> $130 – $159</label>
+    <label><input type="checkbox" id="price4" value="160-1000"> Above $160</label>
+    <h4>Gender</h4>
+    <label><input type="checkbox"id="women">Women</label>
+    <label><input type="checkbox"id="men">Men</label>
+
+</div>
+
+    </aside>
+
+    <section class="product-list">
+        <div id="product-container">
+
+
+</div>
+    </section>
+
+<script src="product_List.js"></script>
+
+</body>
+</html>

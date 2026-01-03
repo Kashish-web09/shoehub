@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/21141911a4.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<div class="cart-body">
+    <div class="top-section">
+<h1 class="heading">Shopping Cart</h1>
+<p>Total items: <span id="total">0</span></p>
+    </div>
+<div class="product-listcart">
+    <div class="product-img">
+    <img src="./e-commerce images/mens img1.png" alt="nike">
+    </div>
+    <div class="product-info">
+    <p class="product-name">Nike Air Max 1</p>
+    <p class="product-categery">Men's Shoes</p>
+    <p class="product-price">$ 88.00</p>
+    </div>
+    <div class="quantity">
+<i class="fas fa-minus"></i>
+<p id="product-quantity">0</p>
+<i class="fas fa-plus"></i>
+    </div>
+</div>
+
+<h2 class="sub-headingcart">Delivery</h2>
+<p class="delivery-info">Order above <strong>$100</strong> and above have Free Shipping.</p>
+
+<hr>
+
+<div class="price">
+    <p>Price: <span id="product-bill">$ 0.00</span></p>
+    <p>Tax & Fee: <span id="product-tax">$0.00</span></p>
+    <p class="tax">(18% GST will be applicable)</p>
+<p>Shipping Charges: <span id="shipping-cost">$0.00</span></p>
+<p class="total-bill">Total: <span id="total-price">$0.00</span></p>
+
+<button type="submit">Next</button>
+</div>
+
+
+</div>
+<script src="cart.js"></script>
+</body>
+</html>
