@@ -54,7 +54,9 @@
         </ul>
 
         <div id="nav-icons">
-            <i class="fas fa-search"></i>
+            <div class="search-box">
+            <i class="fas fa-search" id="search-icon"></i>
+            </div>
             <a class="icon" href="Login.html"><i class="far fa-user"></i></a>
             <a class="icon" href="Cart.html"><i class="fas fa-cart-arrow-down"></i></a>
         </div>
@@ -115,14 +117,14 @@
 <section id="new-arrival">
     <div class="arrival-head">
     <h1 class="sub-heading">New Arrivals</h1>
-    <button class="viewall-btn">View all</button>
+    <a href="Product_List.html"><button class="viewall-btn">View all</button></a>
     </div>
     <div class="container">
         <div class="card">
             <div class="card-img">
             <img src="./e-commerce images/puma shoe2.jfif" alt="air jordan">
             </div>
-            <h3 class="shoe-name">RS-X³ WH Sneakers
+            <h3 class="shoe-name">Rs-X³ Wh Sneakers
  </h3>
             <p class="price">$ 110.00</p>
           <a href="./Product_List.html">  <button class="add-btn">View Product</button></a>
@@ -141,7 +143,7 @@
 
             <img src="./e-commerce images/sketch shoe1.jfif" alt="air max">
                         </div>
-            <h3 class="shoe-name">Skechers MAX CUSHIONING GLIDE-STEP mens Shoes
+            <h3 class="shoe-name">Skechers Max Cushioning Glide-Step mens Shoes
 </h3>
             <p class="price">$ 79.00</p>
      <a href="./Product_List.html"><button type="button" class="add-btn">View Product</button></a>
@@ -163,7 +165,7 @@
 <section id="new-arrival">
     <div class="arrival-head">
     <h1 class="sub-heading">Best seller</h1>
-    <button class="viewall-btn">View all</button>
+    <a href="Product_List.html"><button class="viewall-btn">View all</button></a>
     </div>
     <div class="container">
         <div class="card">
@@ -200,7 +202,7 @@
 
             <img src="./e-commerce images/bestseeler6.avif" alt="chappal">
             </div>
-            <h3 class="shoe-name">SHREE OL Women's Printed Fashion Ballet Flat Pink
+            <h3 class="shoe-name">Shree Ol Women's Printed Fashion Ballet Flat Pink
 </h3>
             <p class="price">$ 18.44</p>
        <a href="./Product_List.html">   <button type="button" class="add-btn">View Product</button></a>
@@ -261,8 +263,8 @@
         <div class="footer-column">
             <h3>Sign Up</h3>
             <div class="signup-form">
-                <input type="email" placeholder="Email">
-                <button>&rarr;</button>
+                <input type="email" placeholder="Email" id="signup-email">
+                <button id="arrow-btn">&rarr;</button>
             </div>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -276,7 +278,7 @@
         </div>
     </div>
     <hr>
-    <p class="footer-bottom">© 2026 ShoeHub. All Rights Reserved.</p>
+    <p class="footer-bottom">&copy; <span id="currentYear"> </span> All Rights Reserved.</span></p>
 </footer>
 
 <script src="shoehub.js"></script>
