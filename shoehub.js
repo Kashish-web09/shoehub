@@ -25,6 +25,7 @@ const slides = document.querySelector(".slides");
   const searchEl=document.getElementById("search-icon");
   const searchBox=document.querySelector(".search-box");
 
+ 
   searchEl.addEventListener('click',()=>{
     if(searchBox.querySelector("input"))
       return;
@@ -54,4 +55,5 @@ const slides = document.querySelector(".slides");
     }else{
       alert("Login Successfully!");
     }
-  })
+  });
+
